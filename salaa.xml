@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dolby" fetch="https://github.com/StimLuks87/" revision="sony-1.3" />
-  <remote name="bt" fetch="https://github.com/StimLuks87/" revision="lineage-22.2" />
   <remote name="dt" fetch="https://github.com/StimLuks87/" revision="16" />
-  <remote name="ims" fetch="https://github.com/StimLuks87/" revision="android-16-qpr2" />
+  <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
   <remote name="core" fetch="https://github.com/StimLuks87/" revision="bka-bpf-5.10" />
-  <remote name="device" fetch="https://github.com/StimLuks87/" revision="derp-16.2" />
+  <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16" />
+  <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
 
   <!-- Device -->
   <project path="device/realme/salaa" name="android_device_realme_salaa" remote="device" />
@@ -16,7 +16,7 @@
   <project path="hardware/mediatek-gnss" name="android_hardware_mediatek_gnss" remote="dt" />
 
   <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy_vndr" remote="dt" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sepolicy" />
 
   <!-- Vendor -->
   <project path="vendor/realme/salaa" name="vendor_realme_salaa_F11" remote="dt" />
@@ -25,14 +25,11 @@
   <project path="kernel/realme/mt6785" name="android_kernel_mt6785" remote="core" />
 
   <!-- Ims -->
-  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="ims" />
+  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" />
 
   <!-- ViperFX -->
   <project path="packages/apps/ViperFX" name="packages_apps_viperfx" remote="dt" />
 
   <!-- Dolby -->
   <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" />
-
-  <!-- QCOM  -->
-  <project path="vendor/qcom/opensource/bluetooth-commonsys-intf" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="bt" />
 </manifest>
