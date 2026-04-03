@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dolby" fetch="https://github.com/Anto-M-Raj/" revision="sony-1.3" />
-  <remote name="dt" fetch="https://github.com/Anto-M-Raj" revision="16" />
-  <remote name="core" fetch="https://github.com/Anto-M-Raj" revision="16QPR2" />
-  <remote name="ims" fetch="https://github.com/Anto-M-Raj" revision="sixteen-oem" />
-  <remote name="device" fetch="https://github.com/Anto-M-Raj" revision="infinity-x_16" />
-  <remote name="sepolicy" fetch="https://github.com/Anto-M-Raj" revision="lineage-23.2" />
+  <remote name="dt" fetch="https://github.com/Anto-M-Raj/" revision="16" />
+  <remote name="core" fetch="https://github.com/Anto-M-Raj/" revision="16QPR2" />
+  <remote name="ims" fetch="https://github.com/Anto-M-Raj/" revision="sixteen-oem" />
+  <remote name="device" fetch="https://github.com/Anto-M-Raj/" revision="infinity-x_16" />
+  <remote name="sepolicy" fetch="https://github.com/Anto-M-Raj/" revision="lineage-23.2" />
 
   <!-- Device -->
   <project path="device/realme/salaa" name="android_device_realme_salaa" remote="device" />
