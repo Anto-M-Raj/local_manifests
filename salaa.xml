@@ -20,7 +20,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sepolicy" />
 
   <!-- Vendor -->
-  <project path="vendor/realme/salaa" name="vendor_realme_salaa_F11" remote="dt" />
+  <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="dt" />
 
   <!-- Kernel -->
   <project path="kernel/realme/mt6785" name="android_kernel_realme_salaa" remote="core" />
