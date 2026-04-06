@@ -29,7 +29,7 @@
   <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" />
 
   <!-- ViperFX -->
-  <project path="packages/apps/ViperFX" name="packages_apps_viperfx" remote="dt" />
+  <project path="packages/apps/ViperFX" name="packages_apps_viper4android" remote="dt" />
 
   <!-- JamesDSP -->
   <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" />
